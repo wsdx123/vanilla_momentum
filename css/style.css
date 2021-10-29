@@ -1,3 +1,36 @@
+body {
+    color: black;
+    width: 100vw;
+}
+#weather {
+    text-align: left;
+    font-weight: bold;
+    color: white;
+}
+#clock {
+    text-align: center;
+    font-size: 10vh;
+}
+#greeting {
+    text-align: center;
+    font-size: 5vh;
+}
+#login-form {
+    text-align: center;
+    margin: 10px;
+}
+#td {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#quote {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
 .hidden {
     display:none;
 }
